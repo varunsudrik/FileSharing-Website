@@ -15,6 +15,10 @@ app.use("/", router);
 
 const PORT = process.env.PORT || 8000;
 
+app.get("/test", (res, res) => {
+  res.setEncoding("Server working");
+});
+
 DBConnection();
 
 app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
