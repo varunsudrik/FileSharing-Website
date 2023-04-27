@@ -16,7 +16,9 @@ Install dependencies: npm install
 Create a .env file in the root directory and add the following variables:
 
 MONGO_URI=<your MongoDB URI>
+
 PORT =<your desired port >
+
 Start the server: npm start
 
 Usage
